@@ -495,101 +495,28 @@ Linear SVM was selected because it achieved the strongest overall performance co
 ```text
 
 PhishingDetectionSystem/
-
-
-
 │
-
-
-
 ├── app.py
-
-
-
-
-
-
-
 ├── Phishing\_Detection\_System\_Slide\_Deck.pptx
-
-
-
 ├── README.md
-
-
-
 ├── requirements.txt
-
-
-
 ├── RUNNING\\\_INSTRUCTIONS.txt
-
-
-
 │
-
-
-
 ├── models/
-
-
-
 │   ├── linear\\\_svm\\\_phishing\\\_model.pkl
-
-
-
 │   └── tfidf\\\_vectorizer.pkl
-
-
-
 │
-
-
-
 ├── results/
-
-
-
 │   ├── confusion\\\_matrix\\\_linear\\\_svm.png
-
-
-
 │   └── model\\\_comparison.csv
-
-
-
 │
-
-
-
 ├── data/
-
-
-
 │   └── phishing\\\_email.csv
-
-
-
 │
-
-
-
 ├── notebooks/
-
-
-
 │   └── phishing\\\_email\\\_detection\\\_training.ipynb
-
-
-
 │
-
-
-
 └── sample\\\_inputs/
-
-
-
 \&nbsp;   └── sample\\\_batch\\\_emails.csv
 
 ```
