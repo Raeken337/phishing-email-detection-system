@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment files
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Large dataset files
+data/*.csv
+
+# Keep sample input CSVs
+!sample_inputs/*.csv
