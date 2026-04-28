@@ -14,6 +14,26 @@ The system uses a trained \*\*Linear Support Vector Machine (Linear SVM)\*\* mod
 
 
 
+\## Dataset Note
+
+
+
+The full dataset files used during development are included in the submitted project zip under the `data/` folder.
+
+
+
+However, the large CSV dataset files are not included in the GitHub repository because they exceed GitHub's standard file size limit.
+
+
+
+The GitHub repository still contains the trained model files, application code, notebook, results, requirements file, README, and sample batch input file needed to review and run the application.
+
+
+
+---
+
+
+
 \## Project Overview
 
 
@@ -488,37 +508,41 @@ PhishingDetectionSystem/
 
 ├── models/
 
-│   ├── linear\_svm\_phishing\_model.pkl
+│   ├── linear\\\_svm\\\_phishing\\\_model.pkl
 
-│   └── tfidf\_vectorizer.pkl
+│   └── tfidf\\\_vectorizer.pkl
 
 │
 
 ├── results/
 
-│   ├── confusion\_matrix\_linear\_svm.png
+│   ├── confusion\\\_matrix\\\_linear\\\_svm.png
 
-│   └── model\_comparison.csv
+│   └── model\\\_comparison.csv
 
 │
 
 ├── data/
 
-│   └── phishing\_email.csv
+│   └── phishing\\\_email.csv
 
 │
 
 ├── notebooks/
 
-│   └── phishing\_email\_detection\_training.ipynb
+│   └── phishing\\\_email\\\_detection\\\_training.ipynb
 
 │
 
-└── sample\_inputs/
+└── sample\\\_inputs/
 
-&nbsp;   └── sample\_batch\_emails.csv
+\&nbsp;   └── sample\\\_batch\\\_emails.csv
 
 ```
+
+
+
+---
 
 
 
@@ -534,13 +558,13 @@ The application requires the following files:
 
 app.py
 
-models/linear\_svm\_phishing\_model.pkl
+models/linear\\\_svm\\\_phishing\\\_model.pkl
 
-models/tfidf\_vectorizer.pkl
+models/tfidf\\\_vectorizer.pkl
 
-results/model\_comparison.csv
+results/model\\\_comparison.csv
 
-results/confusion\_matrix\_linear\_svm.png
+results/confusion\\\_matrix\\\_linear\\\_svm.png
 
 requirements.txt
 
@@ -549,6 +573,10 @@ requirements.txt
 
 
 If the model or vectorizer files are missing, the application will not be able to run predictions.
+
+
+
+---
 
 
 
@@ -562,7 +590,7 @@ Clone the repository:
 
 ```bash
 
-git clone https://github.com/your-username/phishing-email-detection-system.git
+git clone https://github.com/Raeken337/phishing-email-detection-system.git
 
 cd phishing-email-detection-system
 
@@ -602,35 +630,51 @@ The application will open in your browser.
 
 
 
+---
+
+
+
 \## Example Inputs
 
 
 
-Example Phishing Email
+Example Phishing Emails:
 
-Dear customer, your account has been suspended due to unusual activity.
+\- Dear customer, your account has been suspended due to unusual activity.
 
-Please click the link below to verify your login details immediately:
+\- Please click the link below to verify your login details immediately:
 
-http://fake-login.example.com
+\- http://fake-login.example.com
 
-Failure to do so will result in permanent account closure.
+\- Failure to do so will result in permanent account closure.
 
-Example Legitimate Email
 
-Hi team, please find attached the meeting notes from today's project discussion.
 
-Let me know if anything needs updating before Friday.
+Example Legitimate Email:
 
-Example Borderline Email
 
-Hello, please review the attached document when you have time.
 
-The finance team needs confirmation before the end of the week.
+\- Hi team, please find attached the meeting notes from today's project discussion.
 
-If there are any issues, contact finance-team@example.com.
+\- Let me know if anything needs updating before Friday.
 
-Batch CSV Format
+
+
+Example Borderline Email:
+
+\- Hello, please review the attached document when you have time.
+
+\- The finance team needs confirmation before the end of the week.
+
+\- If there are any issues, contact finance-team@example.com.
+
+
+
+---
+
+
+
+\## Batch CSV Format
 
 
 
@@ -651,6 +695,10 @@ email\_text
 
 
 The app will allow the user to select the column containing email text.
+
+
+
+---
 
 
 
@@ -684,6 +732,10 @@ The system should be used as a decision-support tool rather than a final authori
 
 
 
+---
+
+
+
 \## Ethical Use
 
 
@@ -697,6 +749,10 @@ It should be used to understand how phishing detection systems can support email
 
 
 Users should still manually review suspicious messages, especially before clicking links, opening attachments, or entering sensitive information.
+
+
+
+---
 
 
 
@@ -728,6 +784,10 @@ Possible future improvements include:
 
 
 
+---
+
+
+
 \## Author
 
 
@@ -738,11 +798,8 @@ Created as part of a phishing email detection system project using Python, Strea
 
 
 
-Replace this bit before uploading:
-
-
-
 ```md
 
-git clone https://github.com/your-username/phishing-email-detection-system.git
+git clone https://github.com/Raeken337/phishing-email-detection-system.git
+
 
