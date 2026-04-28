@@ -1,0 +1,45 @@
+Phishing Email Detection System - Running Instructions
+
+Required software:
+- Python 3.10 or later
+- pip
+- Streamlit
+- The Python packages listed in requirements.txt
+
+How to run the artefact:
+
+1. Extract the ZIP file.
+
+2. Open a terminal or command prompt inside the project folder.
+
+3. Install the required dependencies using:
+
+   pip install -r requirements.txt
+
+4. Run the Streamlit application using:
+
+   streamlit run app.py
+
+5. The application should open in a web browser.
+
+Required files:
+- app.py
+- requirements.txt
+- models/linear_svm_phishing_model.pkl
+- models/tfidf_vectorizer.pkl
+- results/model_comparison.csv
+- results/confusion_matrix_linear_svm.png
+
+Notes:
+The application is a Python Streamlit prototype for phishing email detection.
+It uses a trained Linear SVM model and TF-IDF vectorizer to classify email text as phishing or legitimate.
+
+The system also includes suspicious indicator detection, URL/email evidence detection, input reliability warnings, recommended actions, influential model terms, edge case testing, batch CSV upload analysis, and downloadable reports.
+
+The prototype should support human decision-making and should not be treated as a final authority for email security decisions.
+
+Video:
+The project explanation video has been submitted through MMUTube.
+
+Video link:
+https://mmutube.mmu.ac.uk/media/Dissertation_Creative_Piece_Video/1_vioosjk0

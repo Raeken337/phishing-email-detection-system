@@ -408,7 +408,7 @@ The system follows this pipeline:
 
 1\. Raw email text is entered by the user.
 
-2\. Text is cleaned using the same preprocessing method used during model training.
+2\. Text is cleaned using the same pre-processing method used during model training.
 
 3\. Cleaned text is transformed into TF-IDF features.
 
@@ -424,7 +424,7 @@ The system follows this pipeline:
 
 
 
-\## Text Preprocessing
+\## Text Pre-processing
 
 
 
@@ -496,47 +496,93 @@ Linear SVM was selected because it achieved the strongest overall performance co
 
 PhishingDetectionSystem/
 
+
+
 │
+
+
 
 ├── app.py
 
+
+
 ├── README.md
+
+
 
 ├── requirements.txt
 
+
+
+├── RUNNING\_INSTRUCTIONS.txt   ← New file
+
+
+
 │
+
+
 
 ├── models/
 
-│   ├── linear\\\_svm\\\_phishing\\\_model.pkl
 
-│   └── tfidf\\\_vectorizer.pkl
+
+│   ├── linear\_svm\_phishing\_model.pkl
+
+
+
+│   └── tfidf\_vectorizer.pkl
+
+
 
 │
+
+
 
 ├── results/
 
-│   ├── confusion\\\_matrix\\\_linear\\\_svm.png
 
-│   └── model\\\_comparison.csv
+
+│   ├── confusion\_matrix\_linear\_svm.png
+
+
+
+│   └── model\_comparison.csv
+
+
 
 │
+
+
 
 ├── data/
 
-│   └── phishing\\\_email.csv
+
+
+│   └── phishing\_email.csv
+
+
 
 │
+
+
 
 ├── notebooks/
 
-│   └── phishing\\\_email\\\_detection\\\_training.ipynb
+
+
+│   └── phishing\_email\_detection\_training.ipynb
+
+
 
 │
 
-└── sample\\\_inputs/
 
-\&nbsp;   └── sample\\\_batch\\\_emails.csv
+
+└── sample\_inputs/
+
+
+
+&nbsp;   └── sample\_batch\_emails.csv
 
 ```
 
@@ -558,13 +604,13 @@ The application requires the following files:
 
 app.py
 
-models/linear\\\_svm\\\_phishing\\\_model.pkl
+models/linear\\\\\\\_svm\\\\\\\_phishing\\\\\\\_model.pkl
 
-models/tfidf\\\_vectorizer.pkl
+models/tfidf\\\\\\\_vectorizer.pkl
 
-results/model\\\_comparison.csv
+results/model\\\\\\\_comparison.csv
 
-results/confusion\\\_matrix\\\_linear\\\_svm.png
+results/confusion\\\\\\\_matrix\\\\\\\_linear\\\\\\\_svm.png
 
 requirements.txt
 
@@ -801,5 +847,6 @@ Created as part of a phishing email detection system project using Python, Strea
 ```md
 
 git clone https://github.com/Raeken337/phishing-email-detection-system.git
+
 
 
