@@ -506,6 +506,14 @@ PhishingDetectionSystem/
 
 
 
+
+
+
+
+├── Phishing\_Detection\_System\_Slide\_Deck.pptx
+
+
+
 ├── README.md
 
 
@@ -514,7 +522,7 @@ PhishingDetectionSystem/
 
 
 
-├── RUNNING\_INSTRUCTIONS.txt   ← New file
+├── RUNNING\\\_INSTRUCTIONS.txt
 
 
 
@@ -526,11 +534,11 @@ PhishingDetectionSystem/
 
 
 
-│   ├── linear\_svm\_phishing\_model.pkl
+│   ├── linear\\\_svm\\\_phishing\\\_model.pkl
 
 
 
-│   └── tfidf\_vectorizer.pkl
+│   └── tfidf\\\_vectorizer.pkl
 
 
 
@@ -542,11 +550,11 @@ PhishingDetectionSystem/
 
 
 
-│   ├── confusion\_matrix\_linear\_svm.png
+│   ├── confusion\\\_matrix\\\_linear\\\_svm.png
 
 
 
-│   └── model\_comparison.csv
+│   └── model\\\_comparison.csv
 
 
 
@@ -558,7 +566,7 @@ PhishingDetectionSystem/
 
 
 
-│   └── phishing\_email.csv
+│   └── phishing\\\_email.csv
 
 
 
@@ -570,7 +578,7 @@ PhishingDetectionSystem/
 
 
 
-│   └── phishing\_email\_detection\_training.ipynb
+│   └── phishing\\\_email\\\_detection\\\_training.ipynb
 
 
 
@@ -578,11 +586,11 @@ PhishingDetectionSystem/
 
 
 
-└── sample\_inputs/
+└── sample\\\_inputs/
 
 
 
-&nbsp;   └── sample\_batch\_emails.csv
+\&nbsp;   └── sample\\\_batch\\\_emails.csv
 
 ```
 
@@ -604,13 +612,13 @@ The application requires the following files:
 
 app.py
 
-models/linear\\\\\\\_svm\\\\\\\_phishing\\\\\\\_model.pkl
+models/linear\\\\\\\\\\\\\\\_svm\\\\\\\\\\\\\\\_phishing\\\\\\\\\\\\\\\_model.pkl
 
-models/tfidf\\\\\\\_vectorizer.pkl
+models/tfidf\\\\\\\\\\\\\\\_vectorizer.pkl
 
-results/model\\\\\\\_comparison.csv
+results/model\\\\\\\\\\\\\\\_comparison.csv
 
-results/confusion\\\\\\\_matrix\\\\\\\_linear\\\\\\\_svm.png
+results/confusion\\\\\\\\\\\\\\\_matrix\\\\\\\\\\\\\\\_linear\\\\\\\\\\\\\\\_svm.png
 
 requirements.txt
 
@@ -847,6 +855,7 @@ Created as part of a phishing email detection system project using Python, Strea
 ```md
 
 git clone https://github.com/Raeken337/phishing-email-detection-system.git
+
 
 
 
